@@ -1,0 +1,18 @@
+baseurl = "/vanblog/"
+title = "Van's Blog"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Let's Learn Together"
+    description = "Knowledge sharing enthusiastic :)"
+    github = "https://github.com/vlvanchin"
+    twitter = "https://twitter.com/vlvanchin"
+    email = "vlvanchin@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
