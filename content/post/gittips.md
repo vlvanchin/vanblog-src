@@ -110,17 +110,51 @@ $ git log --cherry-pick --right-only --no-merges develop...master
 $ git log --cherry-pick --left-only --no-merges develop...master
 ```
 
+## Basis commands for Tags
+This shows command to list, create, push to remote, delete locally and in remote
+
+### To list all tags 
+```
+$ git tag
+```
+
+### to create a tag with anotate and with message
+```
+$ git tag -a ${tag_name} -m "enter the message for this tag"
+```
+
+### to push a tag to remote repository
+```
+$ git push origin ${tag_name}
+```
+
+### to show the details of a tag
+```
+$ git show ${tag_name}
+```
+
+### to delete/remove a tag
+```
+$ git tag --delete ${tag_name}
+```
+
+### to delete/remove a tag in the remote repo
+```
+$ git push origin --delete ${tag_name}
+```
+
+
 ## How to merge a Tag in a branch to another branch
 
 ```
 # change dir to the destination branch
-$ git checkout <<destination_branch>>
+$ git checkout <destination_branch>
 
 # fetch the tags from the remote
 $ git fetch --tags origin
 
 # do merge tag
-$ git merge <<tag_name>>
+$ git merge <tag_name>
 ```
 
 ## How to get log based on filters
