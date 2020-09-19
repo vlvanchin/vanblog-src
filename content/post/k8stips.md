@@ -1,5 +1,5 @@
 +++
-title = "Tips on K8s"
+title = "K8s"
 description = "This page show some of the most used commands in Kubernetes"
 tags = [
     "k8s",

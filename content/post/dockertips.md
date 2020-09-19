@@ -1,5 +1,5 @@
 +++
-title = "Tips on Docker"
+title = "Docker"
 description = "This page show some of the most used commands in Docker"
 tags = [
     "docker",

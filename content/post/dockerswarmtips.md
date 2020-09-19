@@ -1,5 +1,5 @@
 +++
-title = "Tips on Docker Swarm"
+title = "Docker Swarm"
 description = "This page show some of the most used commands in Docker Swarm"
 tags = [
     "docker",

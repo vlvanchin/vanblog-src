@@ -1,5 +1,5 @@
 +++
-title = "Tips on GIT"
+title = "GIT"
 description = "This page show some of the most used commands in GIT"
 tags = [
     "git",

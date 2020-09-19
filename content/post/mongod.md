@@ -1,5 +1,5 @@
 +++
-title = "Tips on Mongo"
+title = "Mongo"
 description = "This page show some of the most used commands in Mongo"
 tags = [
     "mongo",

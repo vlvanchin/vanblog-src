@@ -1,5 +1,5 @@
 +++
-title = "Tips on AWS s3"
+title = "AWS s3"
 description = "This page shows some basic commands used in s3"
 tags = [
     "aws",

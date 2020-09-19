@@ -1,5 +1,5 @@
 +++
-title = "Tips on Java"
+title = "Java"
 description = "This page show some of the most used commands in Java"
 tags = [
     "java",

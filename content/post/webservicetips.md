@@ -1,5 +1,5 @@
 +++
-title = "Tips on Webservice"
+title = "Webservice"
 description = "This page show some of the most used commands in Webservice"
 tags = [
     "webservice",
