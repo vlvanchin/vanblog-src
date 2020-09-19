@@ -1,5 +1,5 @@
-# baseurl = "/vanblog/"
-baseurl = "/"
+baseurl = "/vanblog/"
+# baseurl = "/"
 title = "Van's Blog"
 theme = "ghostwriter"
 
