@@ -14,6 +14,43 @@ menu = "main"
 author = "van"
 +++
 
+# How to run a packaged Java file from any folder
+
+Here is the structure of the Java project, were bin is the output folder
+
+```
+demo
+├─ src
+|   └── com
+|       ├── van
+|            └── Demo.java
+├─ bin
+```
+
+To compile the Demo.java try the following command from the demo folder that will place the .class file in the package folders within bin folder
+
+`$ javac -classpath ./src ./src/com/van/Demo.java -d ./bin`
+
+outcome
+
+```
+demo
+├─ src
+|   └── com
+|       ├── van
+|            └── Demo.java
+├─ bin
+|   └── com
+|       ├── van
+|            └── Demo.class
+```
+
+To run the Java class, try the following command
+
+`$java -cp ./bin com.van.Demo`
+
+where cp is the classpath option
+
 # How to run executable Java Jar files
 
 Here we have a sample1 project that shows how to build and execute java programs as a Jar file.
