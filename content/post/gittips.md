@@ -45,6 +45,11 @@ $ git push --delete <<remote>> <<branch-name>>
 
 # Other useful commands:
 
+### how to restore the modified file contents from the remote Git
+```
+$ git restore <filename> 
+```
+
 ### how to view logs for a specific branch
 ```
 $ git log --oneline --decorate <branch>
@@ -101,7 +106,6 @@ $ git push <<remote>> <<branch>> -f
 ```
 
 ## How to list all different commits between two Branches in a Repo
-
 ```
 # To list right-only branch commits that are not in the develop (left branch)
 $ git log --cherry-pick --right-only --no-merges develop...master 
@@ -109,6 +113,7 @@ $ git log --cherry-pick --right-only --no-merges develop...master
 # To list left-only branch commits that are not in the master (right branch)
 $ git log --cherry-pick --left-only --no-merges develop...master
 ```
+---
 
 ## Basis commands for Tags
 This shows command to list, create, push to remote, delete locally and in remote
@@ -142,10 +147,9 @@ $ git tag --delete ${tag_name}
 ```
 $ git push origin --delete ${tag_name}
 ```
-
+---
 
 ## How to merge a Tag in a branch to another branch
-
 ```
 # change dir to the destination branch
 $ git checkout <destination_branch>
