@@ -1,3 +1,21 @@
++++
+title = "Screen cmd"
+description = "This page shows some basic command of Screen"
+tags = [
+    "unix",
+    "screen",
+]
+date = "2021-02-12"
+categories = [
+    "unix",
+]
+menu = "main"
+author = "van"
++++
+
+# Screen Examples
+This page shows some useful commands of Screen tool in Unix
+
 ## To start  a screen session:
 `$ screen`
 
