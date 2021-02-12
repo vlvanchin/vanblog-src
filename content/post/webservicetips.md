@@ -15,7 +15,6 @@ author = "van"
 +++
 
 # jax-ws using soap and wsdl
-# ----------------------------
 ```
 > mkdir -p helloservice/endpoint/
 > mkdir build
