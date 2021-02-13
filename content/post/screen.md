@@ -29,7 +29,7 @@ Press `Ctrl+a ?`
 Press `Ctrl+d`
 
 ## To scroll up and down the screen
-Press `Ctrl+a (escape)(enter) Up arrow or down arrow`
+Press `Ctrl+a (escape) use Up arrow or down arrow keys, once done hit 'q' to quit`
 
 ## You can have multiple windows within a Screen session.
 Within a screen session following commands can be used:
