@@ -78,6 +78,6 @@ $ curl $(docker-machine ip default):8080
 
 To unmap the default docker-machine 
 ```
-$ eval $(docker-machine env default -u)
+$ eval $(docker-machine env -u)
 ```
 
