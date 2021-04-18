@@ -47,6 +47,11 @@ $ ssh-keygen -C <comment | email>
 $ ssh-keygen -N "" 
 ```
 
+* to generate a key pair in PEM format with comments and save it to a different filename
+```
+$ ssh-keygen -m PEM -C "my special vm" -f my_special_vm.pem
+```
+
 ## how to add a passphrase to the existing keys
 
 ```
@@ -58,6 +63,14 @@ $ ssh-keygen -p -f <filename>
 $ ssh-keygen -y -f <private-key-filename>
 ```
 
+## how to upload the public key to "my special vm" machine, so that i would not be required to key in my credentials each time
+```
+$ ssh-keygen -y -f my_special_vm.pem | ssh <username>@<server_domain_name-or-ip_address> 'cat >> ~/.ssh/authorized_keys'
+
+or
+
+$ ssh-copy-id -i linux_academy.pem.pub <username>@<server_domain_name-or-ip_address>
+```
 
 ## File/folder permission to be set 
 
